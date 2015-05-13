@@ -1,0 +1,16 @@
+{
+  "offers": [
+    {
+      "id": "espetus-churrascaria-san-mateo-san-mateo",
+      "name": "Espetus Churrascaria San Mateo",
+      "address": "710 South B Street, San Mateo, California 94401",
+      "pic": "v1.jgp"
+    },
+    {
+      "id": "naschmarkt-restaurant-campbell",
+      "name": "Naschmarkt Restaurant",
+      "address": "384 East Campbell Avenue, Campbell, California 95008",
+      "pic": "v1-1.jpg"
+    }
+  ]
+}

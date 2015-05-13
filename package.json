@@ -1,0 +1,12 @@
+{
+  "name": "Reactor",
+  "version": "0.0.1",
+  "private": true,
+  "main": "components/app.js",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.4.2"
+  }
+}
