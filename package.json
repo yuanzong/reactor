@@ -1,0 +1,19 @@
+{
+  "name": "Reactor",
+  "version": "0.0.1",
+  "private": true,
+  "main": "components/app.js",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.4.2"
+  }
+}
