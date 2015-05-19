@@ -1,16 +1,59 @@
 {
   "offers": [
     {
-      "id": "espetus-churrascaria-san-mateo-san-mateo",
-      "name": "Espetus Churrascaria San Mateo",
-      "address": "710 South B Street, San Mateo, California 94401",
-      "image": "http://www.espetus.com/wp-content/uploads/2014/03/braziliansteakhousesmainhp-espetuschurrascaria.jpg"
+      "name": "Play With Fire: Introduction to Hot Glass",
+      "type": 10,
+      "expires": "3600",
+      "offer": {
+        "free": true,
+        "limit": 25
+      },
+      "address": "1750 Armstrong Ave, San Francisco",
+      "image": "https://dm8upoct4laqm.cloudfront.net/thumbs/2e/18/2e188322766c5146def5c0623eeaab45.jpg",
+      "meta": {
+        "price": 125,
+        "description": [
+          "Take the first step into the world of hot glass with this three-hour overview class.",
+          "Learn how to manipulate molten glass, add color, and shape it into a beautiful piece of solid glass art.",
+          "Glassblowing is all about manipulating very hot, molten glass - it's stored in the furnace at about 2100°F and kept between 1600° and 1900°F while working."
+        ]
+      }
     },
     {
-      "id": "naschmarkt-restaurant-campbell",
-      "name": "Naschmarkt Restaurant",
-      "address": "384 East Campbell Avenue, Campbell, California 95008",
-      "image": "http://www.espetus.com/wp-content/uploads/2014/03/braziliansteakhousesmainhp-espetuschurrascaria.jpg"
+      "name": "Seasonal Beer Dinner with Marin Brewing",
+      "type": 30,
+      "starts": "16:30",
+      "ends": "18:30",
+      "offer": {
+        "free": false,
+        "credit": 10,
+        "limit": 25
+      },
+      "address": "598 Haight St, San Francisco",
+      "image": "https://dm8upoct4laqm.cloudfront.net/thumbs/6e/94/6e940b74be2511c9acbb452f4d10d8d0.jpg",
+      "meta": {
+        "price": 150,
+        "description": [
+          "Enjoy a four-course, family-style dinner paired with beers by Marin Brewing. You'll dine on exclusive dishes by Maven's executive chef, Isaac Miller, sample the best of Marin Brewing, and enjoy Maven's casual yet contemporary atmosphere.",
+          "The pop-up dinner includes delightfully seasonal dishes, such as a stone fruit salad with almond puree and a pork chop with barley salad and beer mustard seeds.",
+          "Brewmaster Arne Johnson will be on-site to talk all things beer-related as you sip the award-winning microbrewery's finest pours."
+        ]
+      }
+    },
+    {
+      "name": "Seats available for sale on United flights",
+      "type": 20,
+      "offer": {
+        "free": true
+      },
+      "address": "San Francisco International Airport, San Francisco, CA 94128",
+      "image": "https://hub.united.com/PublishingImages/Hub%20Images%20120811/Hub%20Asset%20Directory/Articles%20Assets/Company+Operations/2013/102813_SFOtoCTU_StartOfSale/United-SFO-CTU_524x210.jpg",
+      "meta": {
+        "price": 1100,
+        "description": [
+          "We have made seats available for sale on our new  nonstop flights to Chengdu, China. We intend to operate three-times-weekly service from our San Francisco hub beginning June 9, 2014, subject to government approval, using Boeing 787 Dreamliner aircraft. United is the first U.S. carrier to offer nonstop service from San Francisco to mainland China beyond Beijing, Shanghai."
+        ]
+      }
     }
   ]
 }

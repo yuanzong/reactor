@@ -1,7 +1,9 @@
 'use strict';
 
 var React = require('react-native');
+
 var OfferList = require('./offer-list');
+var styles = require('./styles');
 
 var { PropTypes, ListView, Component, View, Text } = React;
 
@@ -22,13 +24,9 @@ module.exports = React.createClass({
 
   render: function () {
     return (
-      <View>
+      <View style={styles.appContainer}>
         <OfferList
           dataSource={this.state.dataSource}/>
-        <Text>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
       </View>
     );
   }

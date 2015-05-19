@@ -13,11 +13,6 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 20,
     marginBottom: 20
-  },
-  app: {
-    backgroundColor: '#F5FCFF',
-    borderWidth: 2,
-    borderColor: '#00ff00'
   }
 });
 

@@ -13,14 +13,11 @@ module.exports = React.createClass({
 
   renderRow: function (row) {
     return (
-      <View>
-        <Image
-          source={{uri: row.image}}
-          style={styles.offerList.row}>
-          <Text>{row.name}</Text>
-        </Image>
-        <View style={styles.offerList.separator}/>
-      </View>
+      <Image
+        source={{uri: row.image}}
+        style={styles.offerContainer}>
+        <Text>{row.name}</Text>
+      </Image>
     );
   },
 

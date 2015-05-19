@@ -2,18 +2,16 @@
 
 var { StyleSheet } = require('react-native');
 
-module.exports = {
-  offerList: StyleSheet.create({
-    row: {
-      flexDirection: 'row',
-      justifyContent: 'center',
-      height: 120,
-      padding: 10,
-      backgroundColor: '#F6F6F6'
-    },
-    separator: {
-      height: 1,
-      backgroundColor: '#CCCCCC'
-    }
-  })
-};
+module.exports = StyleSheet.create({
+  appContainer: {
+    backgroundColor: 'white'
+  },
+
+  offerContainer: {
+    margin: 2,
+    borderRadius: 3,
+    borderWidth: 1,
+    borderColor: 'black',
+    height: 120
+  }
+});
