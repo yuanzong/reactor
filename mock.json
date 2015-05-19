@@ -3,7 +3,7 @@
     {
       "name": "Play With Fire: Introduction to Hot Glass",
       "type": 10,
-      "expires": "3600",
+      "expires": 3600,
       "offer": {
         "free": true,
         "limit": 25
@@ -22,8 +22,8 @@
     {
       "name": "Seasonal Beer Dinner with Marin Brewing",
       "type": 30,
-      "starts": "16:30",
-      "ends": "18:30",
+      "start": "16:30",
+      "end": "18:30",
       "offer": {
         "free": false,
         "credit": 10,
